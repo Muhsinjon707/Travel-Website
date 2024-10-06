@@ -1,0 +1,105 @@
+.top-selling {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+
+  .decore-2 {
+    position: absolute;
+    top: 50%;
+    right: -35px;
+    z-index: -10;
+  }
+
+  h2 {
+    font-family: $secondary-font;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 64px;
+    text-align: center;
+    color: $even-darker-blue;
+    margin-bottom: 60px;
+  }
+
+  .place-cards {
+    display: flex;
+    column-gap: 1px;
+    align-items: center;
+    justify-content: center;
+
+    .card-item {
+      display: flex;
+      flex-direction: column;
+      border-radius: 24px;
+
+      box-shadow: 0px 1.85px 3.15px 0px rgba(0, 0, 0, 0);
+
+      box-shadow: 0px 8.15px 6.52px 0px rgba(0, 0, 0, 0.01);
+
+      box-shadow: 0px 20px 13px 0px rgba(0, 0, 0, 0.01);
+
+      box-shadow: 0px 38.52px 25.48px 0px rgba(0, 0, 0, 0.01);
+
+      box-shadow: 0px 64.81px 46.85px 0px rgba(0, 0, 0, 0.02);
+
+      box-shadow: 0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+      position: relative;
+      align-items: center;
+      justify-content: center;
+
+      img {
+        width: 475px;
+        height: 557px;
+      }
+
+      .card-content {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        align-items: start;
+        padding: 10px 0px;
+        width: 315px;
+        height: 130px;
+        position: absolute;
+        background-color: rgb(227, 223, 222);
+        bottom: 90px;
+        border-bottom-left-radius: 24px;
+        border-bottom-right-radius: 24px;
+
+        .content-top {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          column-gap: 120px;
+          padding-left: 20px;
+
+          h5 {
+            font-size: 18px;
+            color: $violet;
+            line-height: 22px;
+            font-weight: 400;
+          }
+
+          .price {
+            color: $violet;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 22px;
+          }
+        }
+
+        .content-bottom {
+          display: flex;
+          align-items: center;
+          padding-left: 20px;
+          column-gap: 15px;
+
+          img {
+            width: 16px;
+            height: 16px;
+          }
+        }
+      }
+    }
+  }
+}
